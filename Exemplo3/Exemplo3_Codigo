@@ -1,0 +1,19 @@
+% fatos e ordens exemplo em arvore genealógica.
+gerou(maria,cesar).
+gerou(cicero,cesar).
+gerou(maria,antonio).
+gerou(cicero,antonio).
+gerou(antonio,antony).
+gerou(larissa,antony).
+
+% acima temos que gerou(x,y) lendo seria como x gerou y x sendo pai/mae
+% e y o filho.
+filho(Y,X):-
+    gerou(X,Y).
+%uma regra que se y é filho de x então x gerou o y então ele é filho.
+masculino(cesar).
+masculino(cicero).
+masculino(antonio).
+masculino(antony).
+femenino(maria).
+femenino(larissa).

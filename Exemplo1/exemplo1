@@ -1,1 +1,11 @@
-asasa
+% fatos e ordens exemplo em arvore genealógica.
+gerou(maria,cesar).
+gerou(cicero,cesar).
+gerou(maria,antonio).
+gerou(cicero,antonio).
+gerou(antonio,antony).
+gerou(larissa,antony).
+
+
+
+
